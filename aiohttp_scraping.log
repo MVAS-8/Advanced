@@ -1,0 +1,6 @@
+2025-03-05 18:27:46,529 - INFO - Початок запиту до https://www.python.org
+2025-03-05 18:27:46,531 - INFO - Початок запиту до https://www.github.com
+2025-03-05 18:27:46,532 - INFO - Початок запиту до https://www.stackoverflow.com
+2025-03-05 18:27:46,663 - ERROR - Помилка при запиті до https://www.github.com: Cannot connect to host www.github.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2025-03-05 18:27:46,863 - ERROR - Помилка при запиті до https://www.stackoverflow.com: Cannot connect to host www.stackoverflow.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
+2025-03-05 18:27:47,067 - ERROR - Помилка при запиті до https://www.python.org: Cannot connect to host www.python.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')]
